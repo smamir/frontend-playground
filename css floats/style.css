@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 60%;
+  margin: 0 20%;
+  background-color: #eee;
+}
+
+.floats{
+  padding: 5px;
+}
+
+.floats > img {
+  width: 150px;
+  float: right;
+}
+
+.floats > p {
+  margin: 0 5px;
+}
+
+.floats > p:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.boxes {
+  margin: 10px 0 0;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  float: right;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+  float: right;
+}
+
+.boxes:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.row-1 {
+
+}
+
+.row-1:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.row-1 > article {
+  background-color: #f8f8f8;
+  width: 46%;
+  padding: 1%;
+  margin: 1%;
+  float: left;
+}
+.text-column > p {
+  padding: 5px;
+  column-count: 4;
+  column-gap: 40px;
+  column-rule: 1px dotted #666;
+}
