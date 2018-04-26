@@ -1,0 +1,49 @@
+body {
+  width: 60%;
+  margin: 0 20%;
+  padding: 0;
+  position: relative;
+}
+
+.header {
+  position: relative;
+}
+
+.header > h1 {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.header > img {
+  width: 100%;
+  height: 500px;
+}
+
+.offer {
+  background-color: #eee;
+  width: 30%;
+  float: left;
+  /* margin: 1%; */
+  padding: 1.66%;
+}
+
+.offers:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.badge {
+  width: 150px;
+  height: 150px;
+  background-color: #0e97ea;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: fixed;
+  top: 100px;
+  left: 16%;
+  cursor: pointer;
+}
